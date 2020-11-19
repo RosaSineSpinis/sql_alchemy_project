@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<!--<ul>-->
+<!--{% for name in name_list %}-->
+<!--    <li><a href="/get_ticket/{{ name }}">{{ name }}</a></li>-->
+<!--{% endfor %}-->
+<!--</ul>-->
+<ul>
+    <li><a href="/get_ticket/change_oil">Change oil</a></li>
+    <li><a href="/get_ticket/inflate_tires">Inflate tires</a></li>
+    <li><a href="/get_ticket/diagnostic">Get diagnostic test</a></li>
+</ul>
+
+{% endblock %}
+
+<!--    <li><a href="{% url 'inflate_tires' link='inflate_tires' %}">Inflate tires</a></li>-->
+<!--    <li><a href="{% url 'change_oil' link='change_oil' %}">Change oil</a></li>-->
+<!--    <li><a href="{% url 'diagnostic' link='diagnostic' %}">Get diagnostic test</a></li>-->
+
+<!--    <li><a href="/menu/get_ticket/Inflate_tires">Inflate tires</a></li>-->

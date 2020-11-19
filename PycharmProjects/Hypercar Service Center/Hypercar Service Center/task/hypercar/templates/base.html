@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <title>Piotr coding</title>
+
+<!--    <link href="{{ STATIC_URL }}main.css" rel="stylesheet" type="text/css" />-->
+
+</head>
+<body>
+    <div class="box_list">
+        {% block content%}
+        This text will be replaced
+        {% endblock %}
+    </div>
+    {% block content2 %}
+    {% endblock %}
+
+</body>
+</html>
